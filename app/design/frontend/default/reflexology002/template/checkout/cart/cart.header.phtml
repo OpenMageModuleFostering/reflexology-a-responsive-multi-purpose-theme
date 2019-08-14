@@ -1,0 +1,12 @@
+<?php if(count($this->getRecentItems())) { ?>
+	    <?php $_cartQty = $this->getSummaryCount() ?>
+	    <?php if ($_cartQty>0) { ?>
+            <?php if ($_cartQty==1) { ?>
+            	<li class="first"><?php echo $this->__('<a href="%s">1 item  in cart</a>', $this->getUrl('checkout/cart')) ?></li>
+            <?php } else { ?>
+            	<li class="first"><?php echo $this->__('<a href="%s">%s items  in cart</a>', $this->getUrl('checkout/cart'), $_cartQty) ?></li>
+            <?php } ?>
+	    <?php } ?>
+<?php } else { ?>
+	 	<li class="first"><?php echo $this->__('<a href="%s">Cart is empty</a>', $this->getUrl('checkout/cart')) ?></li>
+<?php } ?>

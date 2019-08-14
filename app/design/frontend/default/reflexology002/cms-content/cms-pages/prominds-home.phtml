@@ -1,0 +1,27 @@
+<!-- 
+	THE CONTENT BELOW GOES INTO THE 'Layout Update XML' section of the design tab.
+-->
+
+<reference name="head">
+  	<action method="addItem"><type>skin_js</type><name>bxslider/jquery.bxslider.min.js</name></action>
+	<action method="addCss"><stylesheet>bxslider/jquery.bxslider.css</stylesheet></action>
+</reference>
+<reference name="content">
+	<block type="catalog/product_new" name="home.product.new" template="catalog/product/new_home.phtml">
+    	<action method="setProductsCount"><count>10</count></action>
+    	<action method="setCacheLifetime"><lifetime>0</lifetime></action>
+    	<action method="addPriceBlockType">
+      		<type>bundle</type>
+      		<block>bundle/catalog_product_price</block>
+      		<template>bundle/catalog/product/price.phtml</template>
+    	</action>
+	</block>
+	<block type="promindscatalog/product_specialoffers" name="home.product.offers" template="catalog/product/offers_home.phtml">
+    	<action method="setProductsCount"><count>10</count></action>
+    	<action method="addPriceBlockType">
+      		<type>bundle</type>
+      		<block>bundle/catalog_product_price</block>
+      		<template>bundle/catalog/product/price.phtml</template>
+    	</action>
+	</block>
+</reference>

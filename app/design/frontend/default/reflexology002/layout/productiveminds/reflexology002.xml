@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+    <default>
+        <reference name="top.links">
+            <action method="addLink" translate="label title" module="reflexology002"><label>Contact</label><url helper="reflexology002/getContactsUrl"/><title>Contact</title><prepare/><urlParams/><position>80</position><liParams/><aParams><class>top-link-contact</class></aParams></action>
+        </reference>
+    </default>
+</layout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+        <Productiveminds_Reflexology002>
+            <version>0.1.4</version>
+        </Productiveminds_Reflexology002>
+    </modules>
+    <frontend>
+ 		<layout>
+            <updates>
+                <reflexology002>
+                    <file>productiveminds/reflexology002.xml</file>
+                </reflexology002>
+            </updates>
+        </layout>
+  	</frontend>
+    <global>
+    	<helpers>
+            <reflexology002>
+                <class>Productiveminds_Reflexology002_Helper</class>
+            </reflexology002>
+        </helpers>
+        <page>
+            <layouts>
+                <prominds_reflex002_one_column_home module="page" translate="label">
+                    <label>Reflexology-002 Homepage</label>
+                    <template>page/prominds-1column-home.phtml</template>
+                    <layout_handle>reflex002_one_column_home</layout_handle>
+                    <is_default>1</is_default>
+                </prominds_reflex002_one_column_home>
+                <prominds_reflex002_category_left module="page" translate="label">
+                    <label>Reflexology-002 Catalog Left</label>
+                    <template>page/prominds-2columns-catalog-left.phtml</template>
+                    <layout_handle>reflex002_catalog_left</layout_handle>
+                    <is_default>1</is_default>
+                </prominds_reflex002_category_left>
+                <prominds_reflex002_category_right module="page" translate="label">
+                    <label>Reflexology-002 Catalog Right</label>
+                    <template>page/prominds-2columns-catalog-right.phtml</template>
+                    <layout_handle>reflex002_catalog_right</layout_handle>
+                    <is_default>1</is_default>
+                </prominds_reflex002_category_right>
+            </layouts>
+        </page>
+    </global>
+</config>
