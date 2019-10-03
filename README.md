@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Reflexology the 2nd, is a responsive multi-purpose theme for Magento. It is elegant, clean and attractive - boasting cool color scheme and design. It supports for all major browsers. Unique features include (i) extra layout and templates files. (ii) Improved for SEO. (iii) fully responsive to your customers’ devices.

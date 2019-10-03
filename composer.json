@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/reflexology-a-responsive-multi-purpose-theme",
+    "name": "openmage-module-fostering\/reflexology-a-responsive-multi-purpose-theme",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Reflexology the 2nd, is a responsive multi-purpose theme for Magento. It is elegant, clean and attractive - boasting cool color scheme and design. It supports for all major browsers. Unique features include (i) extra layout and templates files. (ii) Improved for SEO. (iii) fully responsive to your customers\u2019 devices.",
     "authors": [
